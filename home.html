@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<head>
+    <html lang="pt-br">
+
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Danilo's Home</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" href="libs/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/geral.css">
+        <link rel="stylesheet" type="text/css" href="css/home.css">
+    </head>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand"><img src="pics/logo.png"></a>
+            <button class="navbar-toggler" data-target="#navbar" data-toggle="collapse" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="navbar-nav nav-tabs mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">Inicial<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobreMim.html">Sobre mim</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li> -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+<body>
+    <div class="resumoPessoal">
+        <div class="resumoConteudo">
+            <img id="fotoPrincipal" src="pics/preCasamentoCortada.jpg" alt="Foto principal rosto">
+            <div class="sobreMin resumoConteudo">
+                <h2>Sobre mim</h2>
+                <p>Curioso, vontade de aprender, responsável.</p>
+            </div>
+            <div class="resumoConteudo">
+                <div class="habilidades">
+                    <h2>Habilidades</h2>
+                    <div class="selecaoSkils btn-group" role="group">
+                        <button id="hardSkillsButton" type="button" class="btn btn-secondary btn">Hard</button>
+                        <button id="softSkillsButton" type="button" class="btn btn-secondary btn">Soft</button>
+                    </div>
+                    <div class="softSkills">
+                        <h4 class="paciencia">Paciência</h4>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" style="width: 100%">100%</div>
+                        </div>
+                        <h4 class="analiseDados">Análise de Dados</h4>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" style="width: 100%">100%</div>
+                        </div>
+                        <h4 class="resiliencia">Resiliência</h4>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" style="width: 100%">100%</div>
+                        </div>
+                    </div>
+                    <div class="hardSkills">
+                        <h4 class="sql">SQL</h4>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" style="width: 100%">100%</div>
+                        </div>
+                        <h4 class="sql">SAS</h4>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80" style="width: 80%">80%</div>
+                        </div>
+                        <h4 class="java">Java</h4>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70" style="width: 70%">70%</div>
+                        </div>
+                        <h4 class="python">Python</h4>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" style="width: 50%">50%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="mainContent">
+            <div class="intro">
+                <h1 class="nomePrincipal">Danilo M. Gorjon</h1>
+                <span>Analista Dados</span>
+            </div>
+            <div class="objetivos">
+                <h3 class="titiloObjetivos">Objetivos</h3>
+                <ul>
+                    <li>Entrar em um mestrado em Computação Aplicada</li>
+                    <li>Estudar processamento natural de linguagem para Portugues</li>
+                    <li>Estudar segmentação ontológica de conhecimento</li>
+                </ul>
+            </div>
+            <div class="interesses">
+                <h3 class="tituloInteresses">Interesses</h3>
+                <ul>
+                    <li>Tabletop Boardgames</li>
+                    <li>Tabletop RPG</li>
+                    <li>Computer Games</li>
+                    <li>Books</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+<footer class="bg-dark">
+    <div class="d-flex align-items-center">
+        <p class="copyright">&copy; dmg - 2020</p>
+        <div class="logosRedesSociais">
+            <img class="logoRedesSociais" src="pics/linkedin.png">
+            <img class="logoRedesSociais" src="pics/github.png">
+            <img class="logoRedesSociais" src="pics/twitter.png">
+        </div>
+    </div>
+</footer>
+<script type='text/javascript' src='libs/jquery-3.5.1.min.js'></script>
+<script type='text/javascript' src='libs/bootstrap.min.js'></script>
+<script type='text/javascript' src='js/home.js'></script>

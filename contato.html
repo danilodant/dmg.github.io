@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<head>
+    <html lang="pt-br">
+
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Danilo's Home</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/geral.css">
+        <link rel="stylesheet" type="text/css" href="css/contato.css">
+    </head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <a class="navbar-brand"><img src="pics/logo.png" alt="Logo do site do Danilo"></a>
+            <button class="navbar-toggler" data-target="#navbar" data-toggle="collapse" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="navbar-nav nav-tabs mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobreMim.html">Sobre mim</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contato.html">Contato<span class="sr-only">(current)</span></a>
+                    </li> -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <form>
+                <div class="form-group">
+                    <label for="contatoNome">Nome</label>
+                    <input type="text" class="form-control required" id="contatoNome" placeholder="Digite seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="contatoEmail">Email</label>
+                    <input type="text" class="form-control required" id="contatoEmail" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="contatoMensagem">Mensagem</label>
+                    <textarea rows="5" class="form-control required" id="contatoMensagem" placeholder="Digite sua mensagem"></textarea>
+                </div>
+                <div class="row justify-content-center">
+                    <input class="enviar" type="submit">
+                </div>
+            </form>
+            <div id="caixaDeToastFixed" aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center">
+                <!-- Position it -->
+                <div id="caixaDeToast">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-dark">
+        <div class="d-flex align-items-center">
+            <p class="copyright">&copy; dmg - 2020</p>
+            <div class="logosRedesSociais">
+                <img class="logoRedesSociais" src="pics/linkedin.png">
+                <img class="logoRedesSociais" src="pics/github.png">
+                <img class="logoRedesSociais" src="pics/twitter.png">
+            </div>
+        </div>
+    </footer>
+</body>
+<script type='text/javascript' src='/webjars/jquery/jquery.min.js'></script>
+<script type='text/javascript' src='/webjars/bootstrap/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='js/contato.js'></script>

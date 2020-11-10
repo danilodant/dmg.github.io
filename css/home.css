@@ -1,0 +1,42 @@
+.resumoPessoal {
+    max-width: 25vw;
+    min-height: 100vh;
+    background-color: lightslategray;
+    padding: 3%;
+    float: left;
+}
+
+.resumoConteudo {
+    padding: 0%;
+}
+
+.selecaoSkils{
+    display: flex;
+}
+
+#fotoPrincipal {
+    max-width: 90%;
+    margin: 5%;
+}
+
+.resumoConteudo h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sobreMin p {
+    text-align: justify;
+}
+
+.selecaoSkils {
+    padding-bottom: 1rem;
+}
+
+main {
+    margin-left: 25vw;
+    text-align: center;
+}
+
+.intro {
+    padding-bottom: 1rem;
+}

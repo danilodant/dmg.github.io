@@ -1,0 +1,29 @@
+.enviar {
+    width: 40%;
+    padding: 10px 0;
+    color: darkslategray;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 0.25s all;
+    text-transform: uppercase;
+}
+
+.enviar:hover {
+    background: darkslategray;
+    color: goldenrod;
+}
+
+#caixaDeToast {
+    position: relative;
+    top: 30xp;
+    right: 50% auto;
+}
+
+#caixaDeToastFixed {
+    position: fixed;
+    top: 60px;
+    width: fit-content;
+    right: auto;
+}

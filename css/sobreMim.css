@@ -1,0 +1,8 @@
+.accordion button {
+    font-size: 105%;
+    color: darkslategray;
+}
+
+.accordion button:hover {
+    color: darkslategray;
+}
