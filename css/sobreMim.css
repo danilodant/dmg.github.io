@@ -6,3 +6,7 @@
 .accordion button:hover {
     color: darkslategray;
 }
+
+.carousel-indicators {
+    margin-bottom: 50px;
+}
