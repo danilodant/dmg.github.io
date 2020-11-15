@@ -1,3 +1,7 @@
+.tituloSessao {
+    text-transform: uppercase;
+}
+
 .accordion button {
     font-size: 105%;
     color: darkslategray;
